@@ -11,7 +11,7 @@ bibtex entry here
 
 PyTorch, TorchVision, and TensorBoard must be installed to run the experiments.
 
-To reproduce the results as in the paper, one needs to specify only the following and to not modify the other arguments:
+To reproduce the results as in the paper, one needs to specify only the following and not modify the other arguments:
 ```
 --batch_size (int) Mini batch size. (default: 1)
 --gpu (boolean) Set True to use PyTorch with CUDA. (default: True)
@@ -51,4 +51,9 @@ For help, run `python experiments/[experiment_name].py -h`
 Example code for reproducing the sequential CIFAR10 results using cpu is:
 ```
 python experiments/cifar.py --batch_size 128 --epochs 100 --gpu False
+```
+
+TensorBoard can be used to check the results by running:
+```
+tensorboard --logdir runs
 ```
