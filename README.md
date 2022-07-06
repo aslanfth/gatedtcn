@@ -6,7 +6,7 @@ Temporal Convolutional Networks](https://arxiv.org) by Fatih Aslan and Suleyman 
 Experiments are done in PyTorch. If you find this repository helpful, please cite our work:
 
 ```
-bibtex entry here
+Aslan, F., Kozat, S.S. Handling irregularly sampled signals with gated temporal convolutional networks. SIViP (2022). https://doi.org/10.1007/s11760-022-02292-2
 ```
 
 PyTorch, TorchVision, and TensorBoard must be installed to run the experiments.
