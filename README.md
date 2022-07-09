@@ -1,7 +1,7 @@
 # Gated Temporal Convolutional Network
 
-This repository contains the experiments done in the work [Handling Irregularly Sampled Sequences with Gated
-Temporal Convolutional Networks](https://arxiv.org) by Fatih Aslan and Suleyman Serdar Kozat.
+This repository contains the experiments done in the work [Handling Irregularly Sampled Signals with Gated
+Temporal Convolutional Networks](https://rdcu.be/cQ8E0) by Fatih Aslan and Suleyman Serdar Kozat.
 
 Experiments are done in PyTorch. If you find this repository helpful, please cite our work:
 
